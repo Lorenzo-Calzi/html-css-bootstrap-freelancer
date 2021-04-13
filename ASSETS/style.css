@@ -1,3 +1,9 @@
+.db{
+    background-color: blueviolet;
+    border: 1px solid white;
+    height: 50px;
+}
+
 header{
     background-color: rgba(44, 62, 80, 1);
 }
@@ -7,8 +13,11 @@ header{
     color: white;
 }
 
-.db{
-    background-color: blueviolet;
-    border: 1px solid white;
-    height: 50px;
+.background{
+    height: 500px;
+    background-color: rgba(26, 188, 156, 1);
+}
+
+.img{
+    margin-top: 10rem;
 }
