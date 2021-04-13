@@ -29,3 +29,10 @@ header{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+.about{
+    height: 300px;
+    background-color: rgba(26, 188, 156, 1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
