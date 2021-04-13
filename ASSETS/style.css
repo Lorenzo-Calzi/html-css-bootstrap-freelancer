@@ -4,6 +4,7 @@
     height: 50px;
 }
 
+/* HEADER */
 header{
     background-color: rgba(44, 62, 80, 1);
 }
@@ -20,4 +21,11 @@ header{
 
 .img{
     margin-top: 10rem;
+}
+/* /HEADER */
+
+/* MAIN */
+.portfolio{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
