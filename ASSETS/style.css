@@ -7,17 +7,44 @@ header{
     background-color: rgba(44, 62, 80, 1);
 }
 
-/* Title */
+/* NAVBAR */
+#navbarTogglerDemo02{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .title a{
     font-size: 22px;
     font-weight: 600;
+    
 }
 
-/* Subtitle */
 .subtitle a{
     font-size: 13px;
     font-weight: 600;
 }
+
+#navbarTogglerDemo02 i{
+    display: none;
+    color: rgba(136, 136, 136, 1);
+    font-size: 18px;
+    padding: 5px 12px 5px 12px;
+    border: 1px solid rgba(187, 191, 194, 1);
+    border-radius: 5px;
+}
+
+@media screen and (max-width:767px){
+    .my-2 ul li{
+        display: none;
+    }
+
+    #navbarTogglerDemo02 i{
+        display: block;
+    }
+
+   
+}
+/* /NAVBAR */
 
 /* JUMBOTRON */
 .background{
@@ -46,7 +73,7 @@ header{
 .star::before{
     content: "";
     width: 10%;
-    height: 2px;
+    height: 3px;
     background-color: white;
     margin-top: 10px;
 }
@@ -54,7 +81,7 @@ header{
 .star::after{
     content: "";
     width: 10%;
-    height: 2px;
+    height: 3px;
     background-color: white;
     margin-top: 10px;
 }
@@ -64,6 +91,7 @@ header{
 /* MAIN */
 /* PORTFOLIO */
 .portfolio{
+    width: 100%;
     padding-top: 45px;
     padding-bottom: 40px;
 }
@@ -82,8 +110,28 @@ header{
 
 .portfolio img{
     height: 255px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 25px;
+}
+
+@media screen and (max-width:767px){
+    .portfolio img{
+        height: 370px;
+    }
+}
+
+@media screen and (min-width:768px) 
+and (max-width: 991px){
+    .portfolio img{
+        height: 240px;
+    }  
+}
+
+@media screen and (min-width:992px)
+and (max-width: 1199px){
+    .portfolio img{
+        height: 215px;
+    }   
 }
 /* /PORTFOLIO */
 
@@ -100,6 +148,22 @@ header{
 
 .about p{
     font-size: 19px;
+}
+
+@media screen and (max-width:767px){
+    .about p{
+        width: 70%;
+        margin: auto;
+        font-size: 23px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width:768px) 
+and (max-width: 991px){
+    .about p{
+        font-size: 17px;
+    }
 }
 /* /ABOUT */
 
@@ -129,6 +193,10 @@ header{
     padding-left: 0;
     padding-bottom: 20px;
     padding-top: 20px;
+}
+
+.form-group textarea{
+    padding-bottom: 60px;
 }
 
 .contact button{
@@ -196,5 +264,22 @@ header{
 
 .bottom span{
     font-size: 12px;
+}
+
+@media screen and (max-width:767px){
+    .top .col-md-4{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width:768px) 
+and (max-width: 991px){
+    .top span{
+        font-size: 13px;
+    }
+
+    .top p{
+        font-size: 14px;
+    }
 }
 /* /FOOTER */
